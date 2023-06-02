@@ -6,8 +6,8 @@ int main() {
     int iteraciones = 1000000;
 
     for (int n = 0; n < iteraciones; n++) {
-        double termino = (n % 2 == 0) ? 1.0 / (2*n + 1) : -1.0 / (2*n + 1);
-        sumatoria += termino;
+        double division = (n % 2 == 0) ? 1.0 / (2*n + 1) : -1.0 / (2*n + 1);
+        sumatoria += division;
     }
 
     double pi = 4 * sumatoria;
